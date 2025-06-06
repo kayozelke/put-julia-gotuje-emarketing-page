@@ -114,15 +114,25 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
 
     </header> <!-- end s-header -->
 
-
     <!-- # site-content
     ================================================== -->
+    
         
 <section id="content" class="s-content">
-    <div class="container-fluid p-0">
-        <div class="main-widescreen"></div>
-        <!-- <p>x</p> -->
-        <!-- <img src="./img/main-widescreen.webp"> -->
+    <!-- Modal -->
+    <div class="row">
+        <div class="modal fade" id="wideScreenModal" tabindex="-1" aria-labelledby="wideScreenModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="main-widescreen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
         <!-- Główna treść -->
@@ -336,6 +346,7 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
 </script>
 <script src="./js/plugins.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/ads.js"></script>
 
 
 
