@@ -4567,14 +4567,19 @@ body.search-is-visible .s-header__search-inner {
 .s-footer h4 {
     font-family   : var(--font-1);
     font-weight   : 500;
-    font-size     : calc(var(--text-size) * 1.0556);
+    /* font-size     : calc(var(--text-size) * 1.0556); */
+    font-size     : var(--text-sm);
     margin-top    : 0;
     margin-bottom : var(--vspace-0_5);
+}
+.s-footer p {
+    font-size: var(--text-xs);
 }
 
 .s-footer .link-list {
     list-style  : none;
     margin-left : 0;
+    font-size: 1.3rem;
 }
 
 .s-footer .link-list li {
@@ -4669,8 +4674,8 @@ body.search-is-visible .s-header__search-inner {
 }
 
 .s-footer__social svg {
-    height : 2.8rem;
-    width  : 2.8rem;
+    height : 2.1rem;
+    width  : 2.1rem;
 }
 
 .s-footer__social svg path {
@@ -4682,6 +4687,7 @@ body.search-is-visible .s-header__search-inner {
  * ------------------------------------------------------------------- */
 .ss-copyright span {
     display : inline-block;
+    font-size: medium;
 }
 
 .ss-copyright span::after {
