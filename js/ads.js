@@ -2,7 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var myModal = new bootstrap.Modal(document.getElementById('wideScreenModal'), {
         keyboard: false
     });
-    myModal.show();
+    
+    setTimeout(function() {
+        myModal.show();
+    }, 3000);
 });
 
 
