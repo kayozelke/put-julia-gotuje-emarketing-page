@@ -65,10 +65,45 @@
 }
 
 .main-widescreen {
-    height: 86vh;
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1ca9cc;
     background-image: url("../img/main-widescreen.webp");
     background-size: cover; /* Optional: makes sure the image fills the container */
     background-position: center; /* Optional: centers the image */
     background-repeat: no-repeat; /* Optional: avoids tiling */
 }
+
+.main-widescreen h1 {
+    font-family : 'Georgia', serif;
+    font-size:4.6rem;
+    text-transform:uppercase;
+    /* letter-spacing: -0.03em; */
+    color: white;
+    text-shadow:
+        -1px -1px 2px #414141,
+        1px -1px 2px #414141,
+        -1px 1px 2px #414141,
+        1px 1px 2px #414141;
+    /* -webkit-text-stroke: 1px black;  */
+}
+
+/* .main-widescreen .big-btn {
+    background  : transparent;
+    font-weight : 900;
+    border      : 2px solid var(--color-btn-stroke);
+    backdrop-filter: blur(4px);
+    text-shadow:
+        -1px -1px 2px #414141,
+        1px -1px 2px #414141,
+        -1px 1px 2px #414141,
+        1px 1px 2px #414141;
+    color: white;
+}
+
+.main-widescreen .big-btn:hover {
+    background:silver;
+    color:black;
+} */

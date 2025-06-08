@@ -21,6 +21,7 @@
         <!-- CSS
         ================================================== -->
         <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/vendor.css">
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/ads.css">
@@ -76,12 +77,18 @@
                             <li class="has-children">
                                 <a href="http://juliagotuje.autonaprawaks.pl/main_categories" title="" class="">Kategorie</a>
                                 <ul class="sub-menu">
-                                                                        <li>
-                                            <a href="http://juliagotuje.autonaprawaks.pl/categories?id=1">
-                                                Na słodko
-                                            </a>
-                                        </li>
-                                                                </ul>
+                                    <li>
+                                        <a href="http://juliagotuje.autonaprawaks.pl/categories?id=1">
+                                            Na słodko
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Śniadania</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dieta wege</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul> <!-- end s-header__nav -->
 
@@ -135,7 +142,17 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="main-widescreen"></div>
+                                    <div class="main-widescreen">
+                                        <div class="d-flex align-items-center justify-content-center flex-column"> <!-- Dodano flex-column -->
+                                            <div class="text-center mb-3 mx-4"> <!-- Wyśrodkowanie tekstu i margines na dole -->
+                                                <h1 class="m-0">Zdrowie na talerzu z pasją i wiedzą</h1> <!-- Usunięto domyślny margines h1 -->
+                                            </div>
+                                            <div class="text-center"> <!-- Wyśrodkowanie przycisku -->
+                                                <a href="http://juliagotuje.autonaprawaks.pl/" class="btn btn--pill">Sprawdź już teraz!</a>
+                                                <!-- Dodano btn-primary dla lepszej widoczności -->
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -250,20 +267,24 @@
                             <div class="column lg-6">
                                 <h4>Kategorie</h4>
                                 <ul class="link-list">
-                                                                <li>
-                                            <a href="http://juliagotuje.autonaprawaks.pl/categories?id=1">
-                                                Na słodko
-                                            </a>
-                                        </li>
-                                                        </ul>
+                                    <li>
+                                        <a href="http://juliagotuje.autonaprawaks.pl/categories?id=1">Na słodko</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Śniadania</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dieta wege</a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column lg-6">
                                 <h4>Linki na stronie</h4>
                                 <ul class="link-list">
                                     <li><a href="http://juliagotuje.autonaprawaks.pl/">Strona główna</a></li>
                                     <li><a href="http://juliagotuje.autonaprawaks.pl/main_categories">Kategorie</a></li>
-                                    <li><a href="http://juliagotuje.autonaprawaks.pl/o-mnie">O mnie</a></li>
-                                    <li><a href="http://juliagotuje.autonaprawaks.pl/kontakt">Kontakt</a></li>
+                                    <!-- <li><a href="http://juliagotuje.autonaprawaks.pl/o-mnie">O mnie</a></li> -->
+                                    <!-- <li><a href="http://juliagotuje.autonaprawaks.pl/kontakt">Kontakt</a></li> -->
                                     <li><a href="http://juliagotuje.autonaprawaks.pl/regulamin">Regulamin</a></li>
                                 </ul>
                             </div>
