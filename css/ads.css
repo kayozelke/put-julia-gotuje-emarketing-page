@@ -42,7 +42,7 @@
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #1ca9cc;
+    background: #43b1cc85;
     backface-visibility: hidden;
 }
 
@@ -91,23 +91,6 @@
     /* -webkit-text-stroke: 1px black;  */
 }
 
-/* .main-widescreen .big-btn {
-    background  : transparent;
-    font-weight : 900;
-    border      : 2px solid var(--color-btn-stroke);
-    backdrop-filter: blur(4px);
-    text-shadow:
-        -1px -1px 2px #414141,
-        1px -1px 2px #414141,
-        -1px 1px 2px #414141,
-        1px 1px 2px #414141;
-    color: white;
-}
-
-.main-widescreen .big-btn:hover {
-    background:silver;
-    color:black;
-} */
 /* Ogólne style okna czatu */
 .chat-box {
     width: 300px;
