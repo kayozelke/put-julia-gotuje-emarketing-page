@@ -1,6 +1,24 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     var myModal = new bootstrap.Modal(document.getElementById('wideScreenModal'), {
-//         keyboard: false
-//     });
-//     myModal.show();
-// });
+document.addEventListener('DOMContentLoaded', function () {
+    var myModal = new bootstrap.Modal(document.getElementById('wideScreenModal'), {
+        keyboard: false
+    });
+    myModal.show();
+});
+
+
+function setupChatToggle() {
+    const chatToggleBtn = document.getElementById('chatToggleBtn');
+    const chatBox = document.getElementById('chatBox');
+    const closeChatBtn = document.getElementById('closeChatBtn');
+
+
+    chatToggleBtn.addEventListener('click', () => {
+        chatBox.style.display = chatBox.style.display === 'none' ? 'block' : 'none';
+    });
+
+    closeChatBtn.addEventListener('click', () => {
+        chatBox.style.display = 'none';
+    });
+};
+
+setupChatToggle()
