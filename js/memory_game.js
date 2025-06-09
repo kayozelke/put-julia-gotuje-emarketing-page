@@ -3,6 +3,7 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let matchedPairs = 0;
 
 function flipCard() {
     if (lockBoard) return;
@@ -33,6 +34,10 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    matchedPairs++;
+    console.log(matchedPairs);
+    console.log(cards.length / 2);
+    checkGameEnd();
 
     resetBoard();
 }
@@ -46,6 +51,15 @@ function unflipCards() {
 
         resetBoard();
     }, 1500);
+}
+
+function checkGameEnd() {
+    if (matchedPairs === cards.length / 2) {
+        // Game is finished
+        setTimeout(function() {
+            alert('Gratulacje!');
+        }, 1000);
+    }
 }
 
 function resetBoard() {

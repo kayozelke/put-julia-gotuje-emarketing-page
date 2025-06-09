@@ -21,7 +21,9 @@ function setupChatToggle() {
 
     closeChatBtn.addEventListener('click', () => {
         chatBox.style.display = 'none';
-    });
+    });    
+    chatBox.style.display = 'block'; // Make chatBox shown by default
+
 };
 
 setupChatToggle()
