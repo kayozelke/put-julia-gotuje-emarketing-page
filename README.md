@@ -1,7 +1,7 @@
 ## Description
 HTML page created for advertising the services of non-existent company named JuliaGotuje.
 
-# Usage
+## Usage
 Simply open `index.html` file using your web browser.
 
 ## Purpose
