@@ -147,21 +147,25 @@
     font-size: 20px; /* bazowa wartość */
     font-family: "Castoro", sans-serif;   
 }
+.about {
+    font-size: 19px; /* bazowa wartość */
+    font-family: "Castoro", sans-serif;   
+}
 .contact-section {
     font-size: 17px; /* bazowa wartość */
     /* font-family: "Castoro", sans-serif;    */
 }
 
-.intro .contact-section h1 {
+.intro .about .contact-section h1 {
   font-size: 1.5em; /* 40px (2 × 20px) */
 }
-.intro .contact-section h2 {
+.intro .about .contact-section h2 {
   font-size: 1.4em; /* 40px (2 × 20px) */
 }
-.intro .contact-section h3 {
+.intro .about .contact-section h3 {
   font-size: 1.3em; /* 40px (2 × 20px) */
 }
 
-.intro .contact-section p {
+.intro .about .contact-section p {
   font-size: 1em; /* 20px */
 }
